@@ -24,7 +24,7 @@ contract ContractTest is Test {
 
     function test_fn_amountIn(uint128 ammountIn) public {
         // uint8 ammountIn // test with variable next time 
-        // uint256 ammountIn = 10*10e18;
+        // uint256 ammountIn = 10*10e18; //
         (bool success, uint256 ammountOut) = ammContract.swapInAmount(ammountIn, address(token0), address(token1));
         assertTrue(success);
         assertTrue(ammountIn >= ammountOut);
