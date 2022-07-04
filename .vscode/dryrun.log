@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/not-sync/git2/fdr-pg/foundry-playground-amm'
+make: Leaving directory '/mnt/c/not-sync/git2/fdr-pg/foundry-playground-amm'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
